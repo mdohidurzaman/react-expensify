@@ -2,8 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components",
-    "\\src\\styles"
+    "\\src\\styles\\base"
   ],
   "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
