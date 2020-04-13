@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\styles\\base"
+    "\\src\\components",
+    "\\src\\tests",
+    "\\src\\tests\\components",
+    "\\src\\tests\\components\\__snapshots__",
+    "\\src\\tests\\fixtures"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\src\\tests\\fixtures\\expenses.js",
   "PreviewInSolutionExplorer": false
 }
