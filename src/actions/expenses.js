@@ -8,17 +8,16 @@ export const addExpense = (expense) => ({
     expense
 });
 
-
-export const startAddExpense = (expensedata = {}) => {
+export const startAddExpense = (expenseData = {}) => {
     return(dispatch) => {
     const {
         description = '',
         note = '',
         amount = 0,
         createdAt = 0
-        } = expensedata;
+        } = expenseData;
         const expense = { description, note, amount, createdAt };
-        database.ref('expense').push(expense).then((ref) => {
+        return database.ref('expenses').push(expense).then((ref) => {
             dispatch(addExpense({
                 id: ref.key,
                 ...expense

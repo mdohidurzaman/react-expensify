@@ -3,11 +3,10 @@
     "",
     "\\src",
     "\\src\\components",
-    "\\src\\tests",
-    "\\src\\tests\\components",
-    "\\src\\tests\\components\\__snapshots__",
+    "\\src\\store",
+    "\\src\\tests\\actions",
     "\\src\\tests\\fixtures"
   ],
-  "SelectedNode": "\\src\\tests\\fixtures\\expenses.js",
+  "SelectedNode": "\\src\\components\\ExpenseForm.js",
   "PreviewInSolutionExplorer": false
 }
