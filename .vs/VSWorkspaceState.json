@@ -2,11 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components",
-    "\\src\\store",
-    "\\src\\tests\\actions",
-    "\\src\\tests\\fixtures"
+    "\\src\\playground",
+    "\\src\\store"
   ],
-  "SelectedNode": "\\src\\components\\ExpenseForm.js",
+  "SelectedNode": "\\src\\playground\\promises.js",
   "PreviewInSolutionExplorer": false
 }
